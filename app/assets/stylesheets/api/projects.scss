@@ -1,17 +1,32 @@
 // Place all the styles related to the api/projects controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-.navbar-div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px 0px;
+.img-div {
+    position: relative;
+    width: 50%;
+}
+.project-img {
+    width: 100%;
 }
 
-.navbar-div p {
-    color: #1D1D1B;
-    font-family: 'Muli', sans-serif;
-    font-weight: 700;
-    letter-spacing: 5px;
-}   
+.img-div:hover .img-overlay {
+   opacity: 1;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: black;
+}
+
+.overlay-text {
+    color: white;
+    font-size: 30px;
+}

@@ -5,12 +5,26 @@ class Projects extends React.Component{
     componentDidMount() {
         this.props.fetchAllProjects();
     }
+
     render() {
-        return (
-            <div>
-                <h1>Projects</h1>
-            </div>
-        )
+        const {projects} = this.props
+        
+        if (projects === []) {
+            return ("")
+        } else {
+            return (
+                <div className="img-div">
+                        {projects.map((project, key) => (
+                        <div key={key}>
+                        <img className="project-img" src={project.img_url} alt=""/>
+                        <div className="img-overlay">
+                            <p className="overlay-text">{project.title}</p>
+                        </div>
+                            </div>
+                    ))}
+                </div>
+            )
+        }
     }
 }
 
