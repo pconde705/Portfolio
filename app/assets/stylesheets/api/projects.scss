@@ -1,12 +1,26 @@
 // Place all the styles related to the api/projects controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .img-div {
     position: relative;
-    width: 50%;
+    overflow: hidden;
+    height: 600px;
+    width: 600px;
 }
+
 .project-img {
-    width: 100%;
+    // position: absolute;
+    height: 1000px;
+    // right: -45px;
+    // bottom: -92px;
 }
 
 .img-div:hover .img-overlay {

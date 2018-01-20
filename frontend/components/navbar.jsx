@@ -7,7 +7,7 @@ class Navbar extends React.Component {
             <div className="navbar-div">
                 <p>EXAMPLE</p>
                 <p>EXAMPLE</p>
-                <p>CENTER</p>
+                <p>PATRICK CONDE</p>
                 <p>EXAMPLE</p>
                 <p>EXAMPLE</p>
             </div>
