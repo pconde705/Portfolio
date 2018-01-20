@@ -1,0 +1,1 @@
+json.extract! @projects :id, :title, :subtitle, :description, :technologies
