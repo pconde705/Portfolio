@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 class Projects extends React.Component{
 
@@ -7,6 +8,10 @@ class Projects extends React.Component{
     }
 
     render() {
+        const hoverColors = {
+            color: "black"
+        }
+        
         const {projects} = this.props
         
         if (projects === []) {
@@ -19,6 +24,8 @@ class Projects extends React.Component{
                         <img className="project-img" src={project.img_url} alt=""/>
                         <div className="img-overlay">
                             <p className="overlay-text">{project.title}</p>
+                            <p className="overlay-text">{project.live_url}</p>
+                            <p style={hoverColors} className="overlay-text">{project.github_url}</p>
                         </div>
                     </div>
                     ))}

@@ -3,6 +3,7 @@
         json.extract! project,
             :id, :title, :subtitle,
             :description, :img_url,
-            :technologies
+            :technologies, :live_url,
+            :github_url
     end
 end

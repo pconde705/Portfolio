@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(version: 20180120033834) do
     t.text "description"
     t.string "technologies"
     t.string "img_url"
+    t.string "live_url"
+    t.string "github_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

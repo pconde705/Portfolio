@@ -11,7 +11,9 @@ Project.create(
     subtitle: "A single-page application with a React/Redux frontend and Ruby on Rails backend.",
     description: "A description",
     technologies: "React, Redux, JavaScript, Ruby, Rails, HTML, CSS, jQuery, Heroku, PostgreSQL, SQL",
-    img_url: "https://res.cloudinary.com/lopopoa2/image/upload/v1512163320/Screen_Shot_2017-12-01_at_1.20.09_PM_rdmyl1.png"
+    img_url: "https://res.cloudinary.com/lopopoa2/image/upload/v1516488995/Screen_Shot_2018-01-20_at_2.46.22_PM_zvrkho.png",
+    live_url: "https://wellspring-pconde705.herokuapp.com/#/",
+    github_url: "https://github.com/pconde705/wellspring"
 )
 
 Project.create(
@@ -19,7 +21,9 @@ Project.create(
     subtitle: "A mobile app written in React Native with Ruby on Rails as backend, aimed at bringing people together by connecting over personal descriptions rather than images.",
     description: "A description",
     technologies: "React, Redux, React Native, JavaScript, Ruby, Rails, Heroku, PostgreSQL",
-    img_url: "https://res.cloudinary.com/lopopoa2/image/upload/v1516478523/Screen_Shot_2018-01-19_at_2.30.45_PM_e8350q.png"
+    img_url: "https://res.cloudinary.com/lopopoa2/image/upload/v1516488950/Screen_Shot_2018-01-20_at_2.47.07_PM_eqwx90.png",
+    live_url: "https://andrewopes789.github.io/blinddate-website/",
+    github_url: "https://github.com/pconde705/BlindDate"
 )
 
 Project.create(
@@ -27,6 +31,8 @@ Project.create(
     subtitle: "An animated statistical infographic of App Academy's Fall 2017 class built in D3.",
     description: "A description",
     technologies: "React, JavaScript, HTML, CSS, D3",
-    img_url: "https://res.cloudinary.com/lopopoa2/image/upload/v1512762458/Screen_Shot_2017-12-08_at_11.42.06_AM_copy_e4yww8.png"
+    img_url: "https://res.cloudinary.com/lopopoa2/image/upload/v1516489026/Screen_Shot_2018-01-20_at_2.45.49_PM_agdp8r.png",
+    live_url: "https://pconde705.github.io/Fall-2017-Infographic/",
+    github_url: "https://github.com/pconde705/Fall-2017-Infographic"
 )
 
