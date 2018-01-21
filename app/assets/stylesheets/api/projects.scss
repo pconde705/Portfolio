@@ -14,7 +14,7 @@
     overflow: hidden;
     height: 350px;
     width: 600px;
-    border: 10px dotted green;
+    border: 10px double #F9E135;
     border-radius: 51px;
     margin: 0px 30px 50px 30px;
 }
@@ -40,10 +40,35 @@
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: purple;
+    background-color: #3128C8;
+
 }
 
 .overlay-text {
     color: white;
     font-size: 30px;
+    font-family: 'Muli', sans-serif;
+}
+
+.overlay-links-div {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay-links-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+}
+
+.github {
+    padding-right: 20px;
+}
+
+.live-site {
+    padding-left: 20px
 }

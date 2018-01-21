@@ -8,9 +8,6 @@ class Projects extends React.Component{
     }
 
     render() {
-        const hoverColors = {
-            color: "black"
-        }
         
         const {projects} = this.props
         
@@ -23,9 +20,13 @@ class Projects extends React.Component{
                     <div className="img-div" key={key}>
                         <img className="project-img" src={project.img_url} alt=""/>
                         <div className="img-overlay">
-                            <p className="overlay-text">{project.title}</p>
-                            <p className="overlay-text">{project.live_url}</p>
-                            <p style={hoverColors} className="overlay-text">{project.github_url}</p>
+                            <div className="overlay-links-div">
+                                <p className="overlay-text title">{project.title}</p>
+                                <div className="overlay-links-text">
+                                    <a href={project.live_url}><p className="overlay-text github"><i className="fa fa-github" aria-hidden="true"></i></p></a>
+                                    <a href={project.github_url}><p className="overlay-text live-site"><i class="fa fa-external-link" aria-hidden="true"></i></p></a>
+                                </div>
+                            </div>    
                         </div>
                     </div>
                     ))}

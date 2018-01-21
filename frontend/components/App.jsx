@@ -7,7 +7,9 @@ import ProjectsContainer from './projects/projects_container';
 const App = () => (
     <div>
         <Navbar />
-        <Route exact path="/" component={ProjectsContainer} />
+        <div className="not-navbar">
+            <Route exact path="/" component={ProjectsContainer} />
+        </div>
     </div>
 )
 
