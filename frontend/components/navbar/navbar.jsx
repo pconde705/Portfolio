@@ -5,11 +5,11 @@ class Navbar extends React.Component {
     render() {
         return (
             <div className="navbar-div">
-                <p>SKILLS</p>
-                <p>PROJECTS</p>
+                <Link to="/skills"><p>SKILLS</p></Link>
+                <Link to="/"><p>PROJECTS</p></Link>
                 <p>PATRICK CONDE</p>
                 <p>RESUME</p>
-                <p>ABOUT</p>
+                <Link to="/about"><p>ABOUT</p></Link>
             </div>
         )
     }
