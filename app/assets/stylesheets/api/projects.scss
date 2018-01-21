@@ -14,7 +14,7 @@
     overflow: hidden;
     height: 350px;
     width: 600px;
-    border: 10px double #F9E135;
+    // border: 10px double #F9E135;
     border-radius: 51px;
     margin: 0px 30px 50px 30px;
 }
@@ -40,7 +40,7 @@
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: #3128C8;
+    // background-color: #3128C8;
 
 }
 
@@ -61,6 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -80px;
 }
 
 .github {
@@ -74,8 +75,10 @@
 }
 
 .title {
-    border-bottom: 3px solid white;
-    margin-bottom: -60px;
-    font-size: 70px;
-    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+.line {
+    margin-top: -10px;
+    width: 12%;
 }
