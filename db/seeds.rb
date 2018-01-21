@@ -27,7 +27,7 @@ Project.create(
 )
 
 Project.create(
-    title: "Fall 2017 Student Infographic", 
+    title: "Student Infographic", 
     subtitle: "An animated statistical infographic of App Academy's Fall 2017 class built in D3.",
     description: "A description",
     technologies: "React, JavaScript, HTML, CSS, D3",

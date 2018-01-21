@@ -51,7 +51,6 @@
 }
 
 .overlay-links-div {
-    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,13 +61,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 150px;
 }
 
 .github {
     padding-right: 20px;
+    font-size: 100px;
 }
 
 .live-site {
-    padding-left: 20px
+    padding-left: 20px;
+    font-size: 100px;
+}
+
+.title {
+    border-bottom: 3px solid white;
+    margin-bottom: -60px;
+    font-size: 70px;
+    padding-bottom: 30px;
 }
