@@ -1,0 +1,41 @@
+.about-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 100px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#about-title {
+    font-family: 'Comfortaa', cursive;
+    font-size: 100px;
+}
+
+.about-container div p {
+    font-size: 20px;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flags img {
+    max-height: 100px;
+}
+
+.flags-rails img {
+    max-width: 120px;
+}
+.about-rails {
+    margin-top: 150px;
+}
+
+.flags-react img {
+    max-width: 270px;
+}
+
+.linkedin-icon {
+    font-size: 70px;
+}
