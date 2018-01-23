@@ -5,12 +5,22 @@ class About extends React.Component {
         return (
             <div>
                 <p>
-                    Throughout my life I have prioritized studying and living in countries and cities I have never visited. 
-                    New languages and cultures don't scare me, they fascinate me. As a child of two nationalities, growing up, and attending school in three continents, I've always sought out experiences that differ from my own. 
-                    My profession as a Software Engineer, compliments my way of thinking about life experiences. Technology is being developed and updated everywhere all the time. 
-                    Programming languages extend across all borders, and having studied programming across continents I've had to adapt to how various communities favor one technology over another. 
-                    My current fascination lies with React, Redux, and React Native for my frontend, and Ruby on Rails as my backend. These technologies, among others such as HTML/CSS, Javascript, and Ruby, are skills I've mastered. 
-                    After working with vanilla javascript, jQuery and various other libraries, they are among my favorite tools to design with.
+                    Hello, I'm Patrick Conde!
+                </p>
+                <p>A little history of myself. I grew up in the US, Sweden, Spain, and Japan. English and Swedish I speak fluently,
+                    Spanish, I can hold a minor conversation, and my Japanese has faded somewhat, but I'm still studying it part-time.
+                </p>
+                <p>
+                    My programming education began primarily when I was living in Denmark, diving into the Rails scene.
+                    Ruby was my first love, and Rails along with it. It became the foundation of my career, and I used my Ruby and Rails skills,
+                    along with the HTML, CSS, JavaScript and jQuery knowledge I had accumulated, to make the move to San Francisco.
+                </p>
+                <p>
+                    I moved to San Francisco, where I've spent the last year harnessing my skills in React, Redux and React Native. 
+                    I'm currently in the bay area, and open to getting in touch for more. 
+                </p>
+                <p>
+                    Let's Connect: LinkedIn
                 </p>
             </div>
         )
