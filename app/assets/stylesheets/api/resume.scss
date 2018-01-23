@@ -1,0 +1,9 @@
+.resume-job-listing {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.resume-job-listing:first-child {
+    border-bottom: 1px solid black;
+}
