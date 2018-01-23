@@ -38,4 +38,41 @@
 
 .linkedin-icon {
     font-size: 70px;
+    color: #1178B3;
+    position: relative;
+}
+
+.linkedin-icon:after,
+.linkedin-icon:before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    display: inline-block;
+    height: 1em;
+    width: 115%;
+    margin-top: 1px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+.linkedin-icon:before {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+}
+
+.linkedin-icon:after {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+.linkedin-icon:hover:after,
+.linkedin-icon:hover:before {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
