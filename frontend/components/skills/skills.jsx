@@ -75,7 +75,7 @@ class Skills extends React.Component {
                         <p>Heroku</p>
                     </div>
                     <div>
-                        <img src="https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-05/76397832707_45c005ef7baa0aef5119_512.png" alt="" />
+                        <img src="http://haraldbregu.com/assets/gitlogo.png" alt="" />
                         <p>Git</p>
                     </div>
                     <div>

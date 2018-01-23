@@ -12,13 +12,12 @@
    font-size: 50px;
    font-family: 'Julius Sans One', sans-serif;
    padding-top: 20px;
-
 }
 
 .group-divs {
     display: flex;
     font-family: 'Work Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
     justify-content: space-around;
@@ -27,7 +26,7 @@
 .group-divs:hover {
     -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .3) 30%, #000 50%, rgba(0, 0, 0, .3) 70%);
     -webkit-mask-size: 200%;
-    animation: shining 3s infinite;
+    animation: shining 4s infinite;
 }
 
 @-webkit-keyframes shining {
