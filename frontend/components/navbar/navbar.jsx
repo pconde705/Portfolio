@@ -8,7 +8,7 @@ class Navbar extends React.Component {
                 <Link className="navbar-link" to="/skills"><p>SKILLS</p></Link>
                 <Link className="navbar-link" to="/"><p>PROJECTS</p></Link>
                 <p className="navbar-name">PATRICK CONDE</p>
-                <Link className="navbar-link" to="/resume"><p>RESUME</p></Link>
+                <Link className="navbar-link" to="/resume"><p>EXPERIENCE</p></Link>
                 <Link className="navbar-link" to="/about"><p>ABOUT</p></Link>
             </div>
         )

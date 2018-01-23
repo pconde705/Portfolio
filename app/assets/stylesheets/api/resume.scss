@@ -1,9 +1,35 @@
 .resume-job-listing {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    font-family: 'Muli', 'sans-serif';
+    letter-spacing: 1px;
+    border-bottom: 1px solid grey;
+
 }
 
-.resume-job-listing:first-child {
-    border-bottom: 1px solid black;
+.resume-job-name {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.resume-job-listing:last-child {
+    border-bottom: none;
+}
+
+.resume-ul {
+    color: #7c7c7c;
+}
+.resume-ul li {
+    margin-bottom: 15px;
+}
+.resume-right {
+    margin-left: 200px;
+}
+.resume-left {
+    width:300px;
+    max-width: 300px;
 }
