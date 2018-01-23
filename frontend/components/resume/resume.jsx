@@ -69,7 +69,7 @@ class Resume extends React.Component {
                 </div>
                 <p className="skill-titles">Download</p>
                 <div className="resume-job-listing">
-                    <p>Click this link to download a pdf of my Resume: <a href="/app/assets/images/patrick_conde_resume.pdf" download="patrick_conde_resume">RESUME</a></p>
+                    <p className="resume-download">Click this link to download a pdf of my Resume: <a href="/app/assets/images/patrick_conde_resume.pdf" download="patrick_conde_resume">[RESUME]</a></p>
                 </div>
             </div>
         )
