@@ -25,9 +25,11 @@ class Projects extends React.Component{
                     {projects.map((project, key) => (
                     <div className="img-div" key={key}>
                         <img className="project-img" src={project.img_url} alt=""/>
+                        <p className="text-over-img">{project.title}</p>
                             <div className="img-overlay" style={styles}>
                             <div className="overlay-links-div">
                                 <p className="overlay-text title">{project.title}</p>
+                                <p className="overlay-text subtitle">{project.subtitle}</p>
                                 <hr className="line" />
                                 <div className="overlay-links-text">
                                     <a target="_blank" href={project.live_url}><p className="overlay-text github"><i className="fa fa-external-link" aria-hidden="true"></i></p></a>

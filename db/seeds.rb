@@ -8,7 +8,7 @@
 
 Project.create(
     title: "WellSpring", 
-    subtitle: "A single-page application with a React/Redux frontend and Ruby on Rails backend.",
+    subtitle: "A single-page crowdfunding app with a React/Redux frontend and Ruby on Rails backend",
     description: "A description",
     technologies: "React, Redux, JavaScript, Ruby, Rails, HTML, CSS, jQuery, Heroku, PostgreSQL, SQL",
     img_url: "https://res.cloudinary.com/lopopoa2/image/upload/v1516488995/Screen_Shot_2018-01-20_at_2.46.22_PM_zvrkho.png",
@@ -18,7 +18,7 @@ Project.create(
 
 Project.create(
     title: "BlindDate", 
-    subtitle: "A mobile app written in React Native with Ruby on Rails as backend, aimed at bringing people together by connecting over personal descriptions rather than images.",
+    subtitle: "A mobile app written in React Native with Ruby on Rails as backend, aimed at bringing people together by connecting over personal descriptions rather than images",
     description: "A description",
     technologies: "React, Redux, React Native, JavaScript, Ruby, Rails, Heroku, PostgreSQL",
     img_url: "https://res.cloudinary.com/lopopoa2/image/upload/v1516488950/Screen_Shot_2018-01-20_at_2.47.07_PM_eqwx90.png",
@@ -28,7 +28,7 @@ Project.create(
 
 Project.create(
     title: "Student Infographic", 
-    subtitle: "An animated statistical infographic of App Academy's Fall 2017 class built in D3.",
+    subtitle: "An animated statistical infographic of App Academy's Fall 2017 class built in D3",
     description: "A description",
     technologies: "React, JavaScript, HTML, CSS, D3",
     img_url: "https://res.cloudinary.com/lopopoa2/image/upload/v1516489026/Screen_Shot_2018-01-20_at_2.45.49_PM_agdp8r.png",
