@@ -82,6 +82,14 @@ class Skills extends React.Component {
                         <img src="http://rspec.info/images/logo_ogp.png" alt="" />
                         <p>RSpec</p>
                     </div>
+                    <div>
+                        <img src="https://pbs.twimg.com/profile_images/567000326444556290/-1wfGjNw.png" alt="" />
+                        <p>Babel</p>
+                    </div>
+                    <div>
+                        <img src="https://webpack.js.org/assets/icon-square-big.svg" alt="" />
+                        <p>Webpack</p>
+                    </div>
                 </div>
             </div>
         )
