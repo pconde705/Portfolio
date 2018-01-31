@@ -4,6 +4,9 @@ class Skills extends React.Component {
     render() {
         return (
             <div className="skills-container">
+              <div className="span-color">
+                <p className="skill-tldr"><span className="tldr">tl;dr</span> - React, Redux, JavaScript, HTML, CSS, D3, jQuery, Ruby, Ruby on Rails, React Native, SQL, PostgreSQL, Heroku, Git, RSpec, Babel, Webpack</p>
+              </div>
                 <p className="skill-titles">FrontEnd</p>
                 <div className="skills-frontend group-divs">
                     <div>
@@ -36,17 +39,17 @@ class Skills extends React.Component {
                     </div>
                 </div>
                 <div className="span-color">
-                <p className="skill-titles">Backend</p>
-                <div className="skills-backend group-divs">
-                    <div>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1200px-Ruby_logo.svg.png" alt="" />
-                        <p>Ruby</p>
-                    </div>
-                    <div>
-                        <img src="https://eventil.s3.amazonaws.com/uploads/event/logo/60/rails-9b13de39de9d2eed10a2418734ee1e584cdc9634c04206af1c2bfcc8b0d0e3d5.png" alt="" />
-                        <p>Ruby on Rails</p>
-                    </div>
-                </div>
+                  <p className="skill-titles">Backend</p>
+                  <div className="skills-backend group-divs">
+                      <div>
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1200px-Ruby_logo.svg.png" alt="" />
+                          <p>Ruby</p>
+                      </div>
+                      <div>
+                          <img src="https://eventil.s3.amazonaws.com/uploads/event/logo/60/rails-9b13de39de9d2eed10a2418734ee1e584cdc9634c04206af1c2bfcc8b0d0e3d5.png" alt="" />
+                          <p>Ruby on Rails</p>
+                      </div>
+                  </div>
                 </div>
                 <p className="skill-titles">Mobile</p>
                 <div className="skills-mobile group-divs">
