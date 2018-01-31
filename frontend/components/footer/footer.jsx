@@ -4,7 +4,8 @@ class Footer extends React.Component {
     render () {
         return (
             <div className="footer-div">
-                <p>This is not a template. It's a portfolio site I built in React/Redux and Ruby on Rails.</p>
+                <p>This is not a template.</p>
+                <p>Contact: patrick.conde.costas@gmail.com</p>
             </div>
         )
     }
