@@ -11,12 +11,12 @@ class Projects extends React.Component{
     }
 
     render() {
-        const colors = ["#3128C8", "#EA168C", "#ED352A", "#095D62", "#F9E135"]
+        const colors = ["#3128C8", "#EA168C", "#ED352A", "#095D62"]
         let styles = {
             backgroundColor: colors[Math.floor(Math.random() * colors.length)]
         }
         const {projects} = this.props
-        
+
         if (projects === []) {
             return ("")
         } else {
@@ -35,7 +35,7 @@ class Projects extends React.Component{
                                     <a target="_blank" href={project.live_url}><p className="overlay-text github"><i className="fa fa-external-link" aria-hidden="true"></i></p></a>
                                     <a target="_blank" href={project.github_url}><p className="overlay-text live-site"><i className="fa fa-github" aria-hidden="true"></i></p></a>
                                 </div>
-                            </div>    
+                            </div>
                         </div>
                     </div>
                     ))}
