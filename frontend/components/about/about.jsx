@@ -14,16 +14,14 @@ class About extends React.Component {
                         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1200px-Flag_of_Spain.svg.png" alt=""/>
                         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png" alt=""/>
                     </div>
-                    <p>I grew up in the US, Sweden, Spain, and Japan. English and Swedish I speak fluently,
-                    I can hold a minor conversation in Spanish, and although my Japanese has faded somewhat,
-                    I'm still studying it part-time as a hobby.
+                    <p>I grew up in the US, Sweden, Spain, and Japan. I speak fluent English and Swedish. During my free-time I study Spanish and Japanese.
                     </p>
                 </div>
                 <div className="about-rails">
                     <p>
-                    My programming education began primarily when I was living in Denmark, becoming enamored with the growing Rails framework.
-                    Ruby was my first love, and Rails along with it. It became the foundation of my career, and I used my Ruby and Rails skills,
-                    along with the HTML, CSS, JavaScript and jQuery knowledge I had accumulated, to make the move to San Francisco.
+                    My programming education began primarily when I was living in Denmark. I became enamored with Ruby and Rails.
+                    After continous study I used my Ruby and Rails skills, along with the HTML, CSS,
+                    JavaScript knowledge I had attained, to make the move to San Francisco.
                     </p>
                     <div className="flags-rails">
                         <img src="https://cdn-images-1.medium.com/max/710/1*9hd_8qR0CMZ8L0pVbFLjDw.png" alt="" />
@@ -34,8 +32,8 @@ class About extends React.Component {
                         <img src="https://cdn-images-1.medium.com/max/800/1*wjlfZatDlTnqfgYJ9iKnKQ.png" alt=""/>
                     </div>
                     <p>
-                    In San Francisco, I've spent the last year harnessing my skills in React, Redux and React Native.
-                    I'm currently still in the bay area, looking for career opportunities.
+                    In San Francisco, I mastered React, Redux and React Native, which are technologies I utilize for my full stack projects with great relish.
+                    I'm currently still in the SF bay area, looking for career opportunities.
                     </p>
                 </div>
                 <div className="about-connect">
