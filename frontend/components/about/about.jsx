@@ -4,7 +4,7 @@ class About extends React.Component {
     render() {
         return (
             <div className="about-container">
-                <div>
+                <div className="about-top">
                     <p id="about-title">Hello, I'm Patrick!</p>
                 </div>
                 <div className="about-growth">
@@ -15,7 +15,7 @@ class About extends React.Component {
                         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png" alt=""/>
                     </div>
                     <p>I grew up in the US, Sweden, Spain, and Japan. English and Swedish I speak fluently,
-                    I can hold a minor conversation in Spanish, and although my Japanese has faded somewhat, 
+                    I can hold a minor conversation in Spanish, and although my Japanese has faded somewhat,
                     I'm still studying it part-time as a hobby.
                     </p>
                 </div>

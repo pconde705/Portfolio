@@ -4,7 +4,7 @@ class Resume extends React.Component {
     render() {
         return (
             <div className="resume-container">
-                <p className="skill-titles">Experience</p>
+                <p className="skill-titles resume-top">Experience</p>
                 <div className="resume-job-listing">
                     <div className="resume-left">
                         <p className="resume-job-name">JEWISH WOMEN'S THEATRE</p>
@@ -14,9 +14,9 @@ class Resume extends React.Component {
                         <p className="resume-job-title">ASSOCIATE PRODUCER / SOCIAL MEDIA DIRECTOR</p>
                         <ul className="resume-ul">
                             <li>Designed and engineered the JWT’s website via WordPress</li>
-                            <li>Produced and edited theatre performances, video promos, and commercials 
+                            <li>Produced and edited theatre performances, video promos, and commercials
                                 with Final Cut Pro and Adobe Premiere Pro</li>
-                            <li>Increased exposure of JWT by creating an online presence, marketing the 
+                            <li>Increased exposure of JWT by creating an online presence, marketing the
                                 theatre and acquiring new clients through Twitter, Facebook, and Instagram engagement</li>
                         </ul>
                     </div>
